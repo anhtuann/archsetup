@@ -1,9 +1,9 @@
-INSTALL_ENV = 'virtualbox'
+INSTALL_ENV = 'machine'
 #Real install would be 'machine'
 
 MINIMAL = ['pacaur.py',
            'cli_tools.py',
-           'virtualbox.py',
+           #'virtualbox.py',
            'xserver.py',
            'i3wm.py',
            'fs_management.py',
@@ -16,10 +16,8 @@ MINIMAL = ['pacaur.py',
            'vim.py',
            'shell.py']
 
-HARDWARE = ['bumblebee.py',
-            'input.py'] #,
-            #'power.py']
+HARDWARE = ['input.py']
 
 STEPS = list()
 STEPS.extend(MINIMAL)
-STEPS.extend(HARDWARE)
+#STEPS.extend(HARDWARE)

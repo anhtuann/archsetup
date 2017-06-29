@@ -14,5 +14,6 @@ cd ~/Projects
 git clone git@anhtuann.com:anhtuann/dotfiles.git
 ln -sf ~/Projects/dotfiles/confs/git_conf ~/.gitconfig
 cd dotfiles
+git checkout 20170629_tardis_install
 sudo ln -sf ~/Projects/dotfiles/confs/pacman_conf /etc/pacman.conf
 sudo pacman -Syu --noconfirm
