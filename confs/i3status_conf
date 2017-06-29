@@ -12,21 +12,14 @@ general {
 }
 
 order += "disk /home"
-order += "wireless wlp6s0"
-order += "ethernet enp7s0"
+order += "wireless wlan0"
 order += "battery 0"
 order += "load"
 order += "tztime local"
 
-wireless wlp6s0 {
+wireless wlan0 {
         format_up = "W: (%quality at %essid) %ip"
         format_down = "W: down"
-}
-
-ethernet enp7s0 {
-        # if you use %speed, i3status requires root privileges
-        format_up = "E: %ip (%speed)"
-        format_down = ""
 }
 
 battery 0 {
