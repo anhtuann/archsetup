@@ -1,3 +1,2 @@
 eval $(ssh-agent)
 exec i3
-exec setxkbmap gb
