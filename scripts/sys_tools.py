@@ -1,5 +1,6 @@
 from scripts import tools
 
 #INSTALL
-packages = ['dmidecode']
+packages = ['dmidecode',
+            'fwupd']
 tools.pacaur(packages)
