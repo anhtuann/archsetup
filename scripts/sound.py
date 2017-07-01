@@ -1,5 +1,7 @@
 from scripts import tools
 
 packages = ['alsa-utils',
-            'apulse']
+            'pulseaudio',
+            'pulseaudio-alsa',
+            'pavucontrol']
 tools.pacaur(packages)
