@@ -1,0 +1,8 @@
+from scripts import tools
+
+#INSTALL
+packages = ['crda']
+tools.pacaur(packages)
+
+#CONFIGURATION
+tools.bash_cmd("sudo sed -i '/FR/s/^#//g' /etc/conf.d/wireless-regdom", shell=True)
