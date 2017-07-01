@@ -17,8 +17,10 @@ MINIMAL = ['pacaur.py',
            'vim.py',
            'shell.py']
 
-HARDWARE = ['input.py']
+HARDWARE = ['power.py']
 
 STEPS = list()
 STEPS.extend(MINIMAL)
-#STEPS.extend(HARDWARE)
+
+if INSTALL_ENV == 'machine':
+    STEPS.extend(HARDWARE)
