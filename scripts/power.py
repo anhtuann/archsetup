@@ -2,5 +2,6 @@ from scripts import tools
 
 #INSTALL
 packages = ['caffeine-ng',
-            'xss-lock']
+            'xss-lock',
+            'xautolock']
 tools.pacaur(packages)
