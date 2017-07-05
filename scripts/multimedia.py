@@ -3,7 +3,8 @@ from scripts import tools
 #INSTALL
 packages = ['mpv',
             'handbrake',
-            'calibre']
+            'calibre',
+            'audacity']
 tools.pacaur(packages)
 
 #CONFIGURATION
