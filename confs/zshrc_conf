@@ -11,7 +11,7 @@ source /usr/bin/virtualenvwrapper.sh
 export EDITOR="vim"
 
 # Path to your oh-my-zsh installation.
-  export ZSH=/home/anhtuann/.oh-my-zsh
+export ZSH=/home/anhtuann/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -24,7 +24,7 @@ ZSH_THEME="ys"
 
 # Uncomment the following line to use hyphen-insensitive completion. Case
 # sensitive completion must be off. _ and - will be interchangeable.
-# HYPHEN_INSENSITIVE="true"
+HYPHEN_INSENSITIVE="true"
 
 # Uncomment the following line to disable bi-weekly auto-update checks.
 # DISABLE_AUTO_UPDATE="true"
@@ -65,11 +65,22 @@ plugins=(git)
 
 # User configuration
 
-  export PATH="/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl"
-  export PATH=$PATH:/home/anhtuann/Projects/useful-scripts
+export PATH="/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl"
+export PATH=$PATH:/home/anhtuann/Projects/useful-scripts
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
+
+### fuzzy completion
+# lifted from http://superuser.com/a/815317/555734
+# 0 -- vanilla completion (abc => abc)
+# 1 -- smart case completion (abc => Abc)
+# 2 -- word flex completion (abc => A-big-Car)
+# 3 -- full flex completion (abc => ABraCadabra)
+zstyle ':completion:*' matcher-list '' \
+    'm:{a-z\-}={A-Z\_}' \
+    'r:[^[:alpha:]]||[[:alpha:]]=** r:|=* m:{a-z\-}={A-Z\_}' \
+    'r:[[:ascii:]]||[[:ascii:]]=** r:|=* m:{a-z\-}={A-Z\_}'
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
