@@ -51,6 +51,8 @@ bindsym $mod+a exec pa_sound_toggle.sh
 ### Focus keybindings ###
 bindsym $mod+Shift+a focus parent
 bindsym $mod+s focus child
+bindsym $mod+x [urgent=latest] focus
+
 # Home row
 bindsym $mod+h focus left
 bindsym $mod+j focus down
