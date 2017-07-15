@@ -62,8 +62,13 @@ def makepkg(package):
     bash_cmd(['makepkg', '-s'])
     pacman(glob.glob(package), makepkg=True)
 
-def mkdir(path):
-    bash_cmd(['mkdir', '-p', os.path.expanduser(path)])
+def mkdir(path, sudo = False):
+    command = ['mkdir', '-p', os.path.expanduser(path)]
+    if sudo == True:
+        sudo_cmd = ['sudo'] + command
+        bash_cmd(sudo_cmd)
+    else:
+        bash_cmd(['mkdir', '-p', os.path.expanduser(path)])
 
 def link_conf(source, link, sudo = False):
     command = ['sudo', 'ln', '-sf', os.path.expanduser(source), os.path.expanduser(link)]
