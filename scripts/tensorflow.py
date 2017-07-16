@@ -24,3 +24,4 @@ with tools.cd(tf_path):
     bazel_cmd.append('--copt=-mfma')
     bazel_cmd.append('//tensorflow/tools/pip_package:build_pip_package')
     tools.bash_cmd(' '.join(bazel_cmd), shell = True)
+    tools.bash_cmd('bazel-bin/tensorflow/tools/pip_package/build_pip_package /tmp/tensorflow_pkg', shell = True)
