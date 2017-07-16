@@ -55,7 +55,7 @@ def git_clone(repository, custom_path = 'Nope'):
     command = ['git', 'clone']
     command.append(repository)
     if custom_path != 'Nope':
-        command.append(custom_path)
+        command.append(os.path.expanduser(custom_path))
     bash_cmd(args = command)
 
 def makepkg(package):
