@@ -3,7 +3,6 @@ INSTALL_ENV = 'machine'
 
 MINIMAL = ['pacaur.py',
            'cli_tools.py',
-           #'virtualbox.py',
            'xserver.py',
            'backlight.py',
            'i3wm.py',
@@ -13,13 +12,17 @@ MINIMAL = ['pacaur.py',
            'sound.py',
            'browser.py',
            'code_env.py',
+           'web_dev.py',
            'multimedia.py',
            'web_tools.py',
+           'office.py',
            'vim.py',
            'shell.py']
 
 HARDWARE = ['power.py',
-            'input.py']
+            'sys_tools.py',
+            'input.py',
+            'wireless.py']
 
 STEPS = list()
 STEPS.extend(MINIMAL)
