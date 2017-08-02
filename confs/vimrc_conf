@@ -69,3 +69,7 @@ let g:syntastic_check_on_open = 1
 
 " removing grey highlight in the sign column
 :hi clear SignColumn
+
+" ycmd debugging
+let g:ycm_keep_logfiles = 1
+let g:ycm_log_level = 'debug'
