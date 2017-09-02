@@ -4,7 +4,8 @@ from scripts import tools
 packages = ['mpv',
             'handbrake',
             'calibre',
-            'audacity']
+            'audacity',
+            'gimp']
 tools.pacaur(packages)
 
 #CONFIGURATION
