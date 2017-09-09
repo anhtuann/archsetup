@@ -17,3 +17,4 @@ cd dotfiles
 git checkout 20170629_tardis_install
 sudo ln -sf ~/Projects/dotfiles/confs/pacman_conf /etc/pacman.conf
 sudo pacman -Syu --noconfirm
+sudo mv /usr/lib/firmware/ath10k/QCA6174/hw3.0/firmware-6.bin /usr/lib/firmware/ath10k/QCA6174/hw3.0/firmware-6.bin.bak
