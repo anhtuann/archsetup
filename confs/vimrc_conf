@@ -61,6 +61,7 @@ let g:netrw_banner = 0
 " vim-airline configuration for enhanced status line
 set laststatus=2
 let g:airline_theme='wombat'
+let g:airline_powerline_fonts = 1
 
 " syntastic configuration for syntax highlighting
 let syntastic_style_error_symbol = '✘'
