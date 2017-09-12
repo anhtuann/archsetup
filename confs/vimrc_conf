@@ -32,6 +32,10 @@ autocmd! bufwritepost .vimrc source %
 
 " Line numbers
 set number
+set relativenumber
+
+" Cursor behavior
+set so=10
 
 syntax on
 
