@@ -22,7 +22,7 @@ MINIMAL = ['pacaur.py',
 HARDWARE = ['power.py',
             'sys_tools.py',
             'input.py',
-            'wireless.py']
+            'network.py']
 
 STEPS = list()
 STEPS.extend(MINIMAL)
