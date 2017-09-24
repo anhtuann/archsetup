@@ -171,3 +171,4 @@ exec --no-startup-id redshift
 exec --no-startup-id setxkbmap gb
 exec --no-startup-id xset s off dpms 300
 exec --no-startup-id xss-lock -l i3lock.sh
+exec --no-startup-id blueman-applet
