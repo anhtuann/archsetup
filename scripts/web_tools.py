@@ -13,5 +13,4 @@ tools.pacaur(packages)
 #CONFIGURATION
 tools.mkdir('~/.config/deluge')
 tools.link_conf('~/Projects/dotfiles/confs/deluge_notifs_conf', '~/.config/deluge/notifications-gtk.conf')
-tools.link_conf('~/Projects/dotfiles/confs/keepassxc_desktop', '/usr/share/applications/keepassxc.desktop', sudo=True)
 tools.link_conf('~/Projects/dotfiles/confs/keepassxc_ini', '~/.config/keepassxc/keepassxc.ini')
