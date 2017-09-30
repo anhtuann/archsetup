@@ -6,7 +6,8 @@ packages = ['dropbox',
             'python2-notify',
             'python2-mako',
             'python2-service-identity',
-            'viber']
+            'viber',
+            'keepassxc']
 tools.pacaur(packages)
 
 #CONFIGURATION
