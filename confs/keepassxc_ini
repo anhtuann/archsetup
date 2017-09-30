@@ -1,13 +1,13 @@
 [General]
 AutoReloadOnChange=true
-AutoSaveAfterEveryChange=false
+AutoSaveAfterEveryChange=true
 AutoSaveOnExit=false
 AutoTypeEntryTitleMatch=true
 GlobalAutoTypeKey=80
 GlobalAutoTypeModifiers=402653184
 IgnoreGroupExpansion=false
 LastChallengeResponse=@Variant(\0\0\0\x1c\0\0\0\0)
-LastDatabases=/home/anhtuann/Dropbox/keepassxc.kdbx, /home/anhtuann/Dropbox/passwords.kdbx
+LastDatabases=/home/anhtuann/Dropbox/keepassxc.kdbx
 LastDir=/home/anhtuann/Dropbox
 LastKeyFiles=@Variant(\0\0\0\x1c\0\0\0\0)
 LastOpenedDatabases=/home/anhtuann/Dropbox/keepassxc.kdbx
@@ -20,11 +20,11 @@ UseGroupIconOnEntryCreation=true
 
 [GUI]
 AutoTypeSelectDialogSize=@Size(400 250)
-EntryListColumnSizes=150, 150, 348
+EntryListColumnSizes=286, 285, 749
 EntrySearchColumnSizes=@Invalid()
 Language=system
 MainWindowGeometry=@ByteArray(\x1\xd9\xd0\xcb\0\x2\0\0\0\0\x3\xc0\0\0\0\x19\0\0\a\x7f\0\0\x4\x37\0\0\x3\xc5\0\0\0\x1e\0\0\az\0\0\x4\x32\0\0\0\0\0\0\0\0\a\x80)
-MinimizeOnClose=false
+MinimizeOnClose=true
 MinimizeOnStartup=false
 MinimizeToTray=false
 ShowTrayIcon=true
