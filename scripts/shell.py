@@ -1,7 +1,8 @@
 from scripts import tools
 
 #INSTALL
-packages = ['zsh']
+packages = ['zsh',
+            'rxvt-unicode']
 tools.pacaur(packages)
 
 #CONFIGURATION

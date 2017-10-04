@@ -10,9 +10,6 @@ source /usr/bin/virtualenvwrapper.sh
 #ENV variables
 export EDITOR="vim"
 
-#QT5
-export QT_QPA_PLATFORMTHEME="qt5ct"
-
 # Path to your oh-my-zsh installation.
 export ZSH=/home/anhtuann/.oh-my-zsh
 
