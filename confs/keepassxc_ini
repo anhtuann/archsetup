@@ -19,7 +19,7 @@ ShowToolbar=true
 UseGroupIconOnEntryCreation=true
 
 [GUI]
-AutoTypeSelectDialogSize=@Size(400 250)
+AutoTypeSelectDialogSize=@Size(521 243)
 EntryListColumnSizes=286, 285, 756
 EntrySearchColumnSizes=@Invalid()
 Language=system
