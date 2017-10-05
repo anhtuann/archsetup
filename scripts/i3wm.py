@@ -41,6 +41,6 @@ tools.mkdir(screenshots_dir)
 wallpapers_dir = '~/Pictures/wallpapers'
 wallpaper = '~/Projects/dotfiles/statics/dayofthetentacle.jpg'
 tools.mkdir(wallpapers_dir)
-tools.bash_cmd(['cp', os.path.expanduser(wallpaper), os.path.expanduser(wallpapers_dir)])
+tools.bash_cmd('cp {} {}'.format(os.path.expanduser(wallpaper), os.path.expanduser(wallpapers_dir)))
 tools.link_conf('~/Projects/dotfiles/confs/fehbg_conf','~/.fehbg')
 
