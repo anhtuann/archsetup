@@ -3,18 +3,15 @@ import contextlib
 import os
 import glob
 
-def bash_cmd(args, shell=False):
+def bash_cmd(cmd):
     '''
-    shell: boolean
-    args: list if shell == False,
-          str if shell == True
-    execute the command args
+    Arguments :
+        cmd (str)
+
+    execute the command cmd
     '''
-    if type(args) == list:
-        print(' '.join(args))
-    else:
-        print(args)
-    subprocess.run(args, stdout=subprocess.PIPE, shell=shell)
+    print(cmd)
+    subprocess.run(cmd, stdout=subprocess.PIPE, shell=True)
 
 def pacman(packages, makepkg=False, noconfirm=True):
     command = ['sudo', 'pacman']
