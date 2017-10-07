@@ -24,7 +24,7 @@ def pacman(packages, makepkg=False, noconfirm=True):
     command.append('--needed')
     for package in packages:
         command.append(package)
-    bash_cmd(args = ' '.join(command))
+    bash_cmd(' '.join(command))
 
 def pacaur(packages, makepkg=False, noconfirm=True):
     command = ['pacaur']
@@ -37,7 +37,7 @@ def pacaur(packages, makepkg=False, noconfirm=True):
     command.append('--needed')
     for package in packages:
         command.append(package)
-    bash_cmd(args = ' '.join(command))
+    bash_cmd(' '.join(command))
 
 @contextlib.contextmanager
 def cd(newdir):
@@ -53,7 +53,7 @@ def git_clone(repository, custom_path = 'Nope'):
     command.append(repository)
     if custom_path != 'Nope':
         command.append(os.path.expanduser(custom_path))
-    bash_cmd(args = ' '.join(command))
+    bash_cmd(' '.join(command))
 
 def makepkg(package):
     bash_cmd('makepkg -s')
