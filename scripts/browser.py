@@ -5,7 +5,8 @@ packages = ['firefox',
             'gstreamer',
             'gst-libav', 
             'gst-plugins-good',
-            'qutebrowser']
+            'qutebrowser',
+            'qt5-webengine']
 tools.pacaur(packages)
 
 #CONFIGURATION
