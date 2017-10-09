@@ -113,11 +113,11 @@ tab-move +
     gr
 
 tab-next
-    J
+    K
     <ctrl-pgdown>
 
 tab-prev
-    K
+    J
     <ctrl-pgup>
 
 tab-clone
@@ -205,10 +205,10 @@ hint inputs
 scroll left
     h
 
-scroll down
+scroll-page 0 0.15
     j
 
-scroll up
+scroll-page 0 -0.15
     k
 
 scroll right
