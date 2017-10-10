@@ -1,5 +1,9 @@
+!xserver resolution
+*dpi : 168
+Xft.dpi: 168
+
 !urxvt
-URxvt*font: xft:Hack:size=14:antialias=true, xft:Symbola
+URxvt*font: xft:Hack:size=8:antialias=true, xft:Symbola
 URxvt.letterSpace: 1
 URxvt.scrollBar: false
 URxvt.perl-ext-common: default,matcher
@@ -33,4 +37,4 @@ rofi.lines: 5
 rofi.columns: 2 
 rofi.width: -50
 rofi.hide-scrollbar: true
-rofi.font: hack 12
+rofi.font: hack 10

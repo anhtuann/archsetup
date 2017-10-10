@@ -25,7 +25,7 @@ workspace 10 output VIRTUAL1
 ##############
 # APPEARANCE #
 ##############
-font xft:Hack 13
+font xft:Hack 9
 new_window pixel 5
 
 ###############
@@ -154,7 +154,7 @@ bindsym $mod+Tab mode "$mode_system"
 bar {
         status_command i3status
         position top
-        font xft:Hack 12 
+        font xft:Hack 7 
 }
 
 ####################
