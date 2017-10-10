@@ -1482,8 +1482,8 @@ _monospace = Hack, xos4 Terminus, Terminus, Monospace, "DejaVu Sans Mono", Monac
 
 # completion (Font):
 #     Font used in the completion widget.
-#     Default: 14pt ${_monospace}
-completion = 14pt ${_monospace}
+#     Default: 8pt ${_monospace}
+completion = 8pt ${_monospace}
 
 # completion.category (Font):
 #     Font used in the completion categories.
@@ -1492,18 +1492,18 @@ completion.category = bold ${completion}
 
 # tabbar (QtFont):
 #     Font used in the tab bar.
-#     Default: 14pt ${_monospace}
-tabbar = 14pt ${_monospace}
+#     Default: 8pt ${_monospace}
+tabbar = 8pt ${_monospace}
 
 # statusbar (Font):
 #     Font used in the statusbar.
-#     Default: 14pt ${_monospace}
-statusbar = 14pt ${_monospace}
+#     Default: 8pt ${_monospace}
+statusbar = 8pt ${_monospace}
 
 # downloads (Font):
 #     Font used for the downloadbar.
-#     Default: 14pt ${_monospace}
-downloads = 14pt ${_monospace}
+#     Default: 8pt ${_monospace}
+downloads = 8pt ${_monospace}
 
 # hints (Font):
 #     Font used for the hints.
@@ -1512,8 +1512,8 @@ hints = bold 13px ${_monospace}
 
 # debug-console (QtFont):
 #     Font used for the debugging console.
-#     Default: 14pt ${_monospace}
-debug-console = 14pt ${_monospace}
+#     Default: 8pt ${_monospace}
+debug-console = 8pt ${_monospace}
 
 # web-family-standard (FontFamily):
 #     Font family for standard fonts.
@@ -1558,34 +1558,34 @@ web-size-minimum-logical = 6
 # web-size-default (Int):
 #     The default font size for regular text.
 #     Default: 16
-web-size-default = 16
+web-size-default = 14
 
 # web-size-default-fixed (Int):
 #     The default font size for fixed-pitch text.
 #     Default: 13
-web-size-default-fixed = 13
+web-size-default-fixed = 12
 
 # keyhint (Font):
 #     Font used in the keyhint widget.
-#     Default: 14pt ${_monospace}
-keyhint = 14pt ${_monospace}
+#     Default: 8pt ${_monospace}
+keyhint = 8pt ${_monospace}
 
 # messages.error (Font):
 #     Font used for error messages.
-#     Default: 14pt ${_monospace}
-messages.error = 14pt ${_monospace}
+#     Default: 8pt ${_monospace}
+messages.error = 8pt ${_monospace}
 
 # messages.warning (Font):
 #     Font used for warning messages.
-#     Default: 14pt ${_monospace}
-messages.warning = 14pt ${_monospace}
+#     Default: 8pt ${_monospace}
+messages.warning = 8pt ${_monospace}
 
 # messages.info (Font):
 #     Font used for info messages.
-#     Default: 14pt ${_monospace}
-messages.info = 14pt ${_monospace}
+#     Default: 8pt ${_monospace}
+messages.info = 8pt ${_monospace}
 
 # prompts (Font):
 #     Font used for prompts.
-#     Default: 14pt sans-serif
-prompts = 14pt sans-serif
+#     Default: 8pt sans-serif
+prompts = 8pt sans-serif
