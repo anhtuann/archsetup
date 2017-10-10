@@ -1041,6 +1041,8 @@ hide-unmatched-rapid-hints = true
 # signs.
 [searchengines]
 DEFAULT = https://duckduckgo.com/?q={}
+g = https://www.google.com/search?hl=en&q={}
+gf = https://www.google.com/search?hl=fr&q={}
 
 
 # Aliases for commands.
