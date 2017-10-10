@@ -4,8 +4,8 @@ custom_palette=false
 style=Fusion
 
 [Fonts]
-fixed="@Variant(\0\0\0@\0\0\0\b\0H\0\x61\0\x63\0k@,\0\0\0\0\0\0\xff\xff\xff\xff\x5\x1\0\x32\x10)"
-general="@Variant(\0\0\0@\0\0\0\b\0H\0\x61\0\x63\0k@,\0\0\0\0\0\0\xff\xff\xff\xff\x5\x1\0\x32\x10)"
+fixed=@Variant(\0\0\0@\0\0\0\b\0H\0\x61\0\x63\0k@ \0\0\0\0\0\0\xff\xff\xff\xff\x5\x1\0\x32\x10)
+general=@Variant(\0\0\0@\0\0\0\b\0H\0\x61\0\x63\0k@ \0\0\0\0\0\0\xff\xff\xff\xff\x5\x1\0\x32\x10)
 
 [Interface]
 activate_item_on_single_click=1
@@ -23,4 +23,4 @@ wheel_scroll_lines=3
 geometry=@ByteArray(\x1\xd9\xd0\xcb\0\x2\0\0\0\0\x4Z\0\0\x1*\0\0\x6\xe0\0\0\x3\x1e\0\0\x4\\\0\0\x1*\0\0\x6\xde\0\0\x3\x1c\0\0\0\0\0\0\0\0\a\x80)
 
 [SettingsWindow]
-geometry=@ByteArray(\x1\xd9\xd0\xcb\0\x2\0\0\0\0\x3\xc0\0\0\0\x19\0\0\a\x7f\0\0\x4\x37\0\0\x3\xc5\0\0\0\x1e\0\0\az\0\0\x4\x32\0\0\0\0\0\0\0\0\a\x80)
+geometry=@ByteArray(\x1\xd9\xd0\xcb\0\x2\0\0\0\0\x1\xe1\0\0\0\x11\0\0\x3\xbf\0\0\x2\x1b\0\0\x1\xe5\0\0\0\x15\0\0\x3\xbb\0\0\x2\x17\0\0\0\0\0\0\0\0\x3\xc0)
