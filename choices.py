@@ -23,10 +23,15 @@ HARDWARE = ['power.py',
             'sys_tools.py',
             'input.py',
             'network.py',
-            'bluetooth.py']
+            'bluetooth.py',
+            'printer.py',
+            'scanner.py']
+
+CODING = ['tensorflow.py']
 
 STEPS = list()
 STEPS.extend(MINIMAL)
 
 if INSTALL_ENV == 'machine':
     STEPS.extend(HARDWARE)
+    STEPS.extend(CODING)
