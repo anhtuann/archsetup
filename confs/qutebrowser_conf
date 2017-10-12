@@ -210,7 +210,7 @@ zoom-levels = 25%,33%,50%,67%,75%,90%,100%,110%,125%,150%,175%,200%,250%,300%,40
 # default-zoom (Perc):
 #     The default zoom level.
 #     Default: 100%
-default-zoom = 90%
+default-zoom = 75%
 
 # downloads-position (VerticalPosition):
 #     Where to show the downloaded files.
