@@ -1509,8 +1509,8 @@ downloads = 8pt ${_monospace}
 
 # hints (Font):
 #     Font used for the hints.
-#     Default: bold 13px ${_monospace}
-hints = bold 13px ${_monospace}
+#     Default: bold 8pt ${_monospace}
+hints = bold 8pt ${_monospace}
 
 # debug-console (QtFont):
 #     Font used for the debugging console.
