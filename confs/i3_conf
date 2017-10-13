@@ -45,7 +45,7 @@ bindsym XF86MonBrightnessUp exec xbacklight -inc 5
 bindsym XF86MonBrightnessDown exec xbacklight -dec 5
 
 ### Custom launchers ###
-bindsym $mod+w exec qutebrowser --backend webengine
+bindsym $mod+w exec qutebrowser
 bindsym $mod+a exec pa_sound_toggle.sh
 bindsym $mod+p exec keepassxc #Should only activate one instance
 
