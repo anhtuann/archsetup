@@ -51,5 +51,5 @@ c.zoom.default = '90%'
 ## Bindings for normal mode
 config.bind('K', 'tab-next')
 config.bind('J', 'tab-prev')
-config.bind('j', 'scroll-page 0 0.15')
-config.bind('k', 'scroll-page 0 -0.15')
+config.bind('j', 'scroll-page 0 0.3')
+config.bind('k', 'scroll-page 0 -0.3')
