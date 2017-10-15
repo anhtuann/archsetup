@@ -41,9 +41,8 @@ c.tabs.last_close = 'startpage'
 # `:open google qutebrowser`.
 # Type: Dict
 c.url.searchengines = {'DEFAULT': 'https://duckduckgo.com/?q={}',
-                        'g'     : 'https://www.google.com/search?hl=en&q={}',
-                        'gf'    : 'https://wwww.google.com/search?hl=fr&q={}'}
-
+                        'g': 'https://www.google.com/search?hl=en&q={}',
+                        'gf': 'https://www.google.com/search?hl=fr&q={}'}
 # The default zoom level.
 # Type: Perc
 c.zoom.default = '90%'
