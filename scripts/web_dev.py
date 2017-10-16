@@ -1,8 +1,7 @@
 from scripts import tools
 
 #INSTALL
-packages = ['nginx-mainline',
-            'google-chrome']
+packages = ['nginx-mainline']
 tools.pacaur(packages)
 
 #CONFIGURATION
