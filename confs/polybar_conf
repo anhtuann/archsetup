@@ -26,7 +26,7 @@ font-1 = FontAwesome:size=12;-2
 font-2 = siji:pixelsize=12;0
 modules-left = i3 xwindow
 modules-center = filesystem 
-modules-right = wlan battery volume date 
+modules-right = wlan battery volume date
 tray-position = right
 tray-padding = 2
 tray-background = #66333333
@@ -108,25 +108,12 @@ animation-charging-3 = 
 animation-charging-4 = 
 animation-charging-framerate = 750
 
-[module/backlight]
-type = internal/backlight
-card = intel_backlight
-enable-scroll = true
-format = <ramp> <label>
-label = %percentage%
-ramp-0 = 🌕
-ramp-1 = 🌔
-ramp-2 = 🌓
-ramp-3 = 🌒
-ramp-4 = 🌑
-
 [module/volume]
 type = internal/volume
-
 format-volume = <ramp-volume><label-volume>
 format-muted = <label-muted>
 label-volume = %percentage%
-label-muted =   muted
+label-muted =  muted
 label-muted-foreground = #aaa
 format-volume-padding = 3
 format-muted-padding = 3
