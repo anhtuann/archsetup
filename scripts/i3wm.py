@@ -9,7 +9,6 @@ packages = ['i3',
             'feh',
             'imagemagick',
             'ghostscript',
-            'volumeicon',
             'dunst',
             'thunar',
             'thunar-volman',
@@ -27,12 +26,10 @@ with tools.cd('~/Projects/'):
 #CONFIGURATION
 tools.mkdir('~/.config/i3')
 tools.mkdir('~/.config/i3status')
-tools.mkdir('~/.config/volumeicon')
 tools.mkdir('~/.config/dunst')
 tools.link_conf('~/Projects/dotfiles/confs/i3_conf', '~/.config/i3/config')
 tools.link_conf('~/Projects/dotfiles/confs/i3status_conf', '~/.config/i3status/config')
 tools.link_conf('~/Projects/dotfiles/confs/Xresources_conf', '~/.Xresources')
-tools.link_conf('~/Projects/dotfiles/confs/volumeicon_conf', '~/.config/volumeicon/volumeicon')
 tools.link_conf('~/Projects/dotfiles/confs/dunst_conf', '~/.config/dunst/dunstrc')
 tools.link_conf('~/Projects/dotfiles/confs/redshift_conf', '~/.config/redshift.conf')
 tools.link_conf('~/Projects/dotfiles/confs/mimeapps_list', '~/.config/mimeapps.list')
