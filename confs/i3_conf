@@ -151,11 +151,7 @@ bindsym $mod+Tab mode "$mode_system"
 #######
 # BAR #
 #######
-bar {
-        status_command i3status
-        position top
-        font xft:Hack 7 
-}
+exec_always --no-startup-id ~/Projects/useful-scripts/polybar.sh
 
 ####################
 # STARTUP PROGRAMS #

@@ -4,5 +4,8 @@ from scripts import tools
 packages = ['ttf-hack-powerline-git',
             'ttf-symbola',
             'ttf-droid',
-            'ttf-mplus']
+            'ttf-mplus',
+            'ttf-font-awesome',
+            'ttf-unifont',
+            'siji-git']
 tools.pacaur(packages)
