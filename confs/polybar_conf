@@ -39,13 +39,13 @@ format = <label-state> <label-mode>
 label-focused = %icon%
 label-focused-background = #88000000
 label-focused-underline= #ddd
-label-focused-padding = 2
+label-focused-padding = 1
 label-unfocused = %index%
-label-unfocused-padding = 2
+label-unfocused-padding = 1
 label-urgent = %index%
 label-urgent-foreground = #000000
 label-urgent-background = #bd2c40
-label-urgent-padding = 2
+label-urgent-padding = 1
 
 [module/xwindow]
 type = internal/xwindow
@@ -57,13 +57,15 @@ type = internal/fs
 mount-0 = /home
 interval = 30
 fixed-values = true
+format-mounted =  <label-mounted>
+label-mounted = %percentage_free%%
 
 [module/wlan]
 type = internal/network
 interface = wlp58s0
-format-connected = <label-connected>
+format-connected =  <label-connected>
 format-disconnected = <label-disconnected>
-label-connected = %signal%% %essid%
+label-connected = %essid%
 label-connected-foreground = #eefafafa
 
 [module/date]
