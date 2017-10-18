@@ -64,9 +64,11 @@ label-mounted = %percentage_free%%
 type = internal/network
 interface = wlp58s0
 format-connected =  <label-connected>
-format-disconnected = <label-disconnected>
+format-disconnected =  <label-disconnected>
 label-connected = %essid%
+label-disconnected = Disconnected
 label-connected-foreground = #eefafafa
+label-disconnected-foreground = #bd2c40
 
 [module/date]
 type = internal/date
