@@ -2,7 +2,8 @@ from scripts import tools
 
 #INSTALL
 packages = ['zsh',
-            'rxvt-unicode']
+            'rxvt-unicode',
+            'tmux']
 tools.pacaur(packages)
 
 #CONFIGURATION
@@ -13,3 +14,4 @@ command = 'sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/to
 tools.bash_cmd('sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"')
 tools.link_conf('~/Projects/dotfiles/confs/zshrc_conf', '~/.zshrc')
 tools.link_conf('~/.config/base16-shell/scripts/base16-flat.sh', '~/.base16_theme')
+tools.link_conf('~/Projects/dotfiles/confs/tmux_conf', '~/.tmux.conf')
