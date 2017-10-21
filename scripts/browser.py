@@ -13,3 +13,4 @@ tools.pacaur(packages)
 #CONFIGURATION
 tools.link_conf('~/Projects/dotfiles/confs/vimperatorrc_conf', '~/.vimperatorrc')
 tools.link_conf('~/Projects/dotfiles/confs/qutebrowser_config_py', '~/.config/qutebrowser/config.py')
+tools.link_conf('~/Projects/dotfiles/confs/qutebrowser_desktop', '~/.local/share/applications/qutebrowser.desktop')
