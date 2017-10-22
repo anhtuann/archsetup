@@ -37,7 +37,7 @@ tools.link_conf('~/Projects/dotfiles/confs/mimeapps_list', '~/.config/mimeapps.l
 screenshots_dir = '~/Pictures/screenshots'
 tools.mkdir(screenshots_dir)
 wallpapers_dir = '~/Pictures/wallpapers'
-wallpaper = '~/Projects/dotfiles/statics/dayofthetentacle.jpg'
+wallpaper = '~/Projects/dotfiles/statics/takingcontrol.jpg'
 tools.mkdir(wallpapers_dir)
 tools.bash_cmd('cp {} {}'.format(os.path.expanduser(wallpaper), os.path.expanduser(wallpapers_dir)))
 tools.link_conf('~/Projects/dotfiles/confs/fehbg_conf','~/.fehbg')
