@@ -13,8 +13,6 @@ packages = ['dropbox',
 tools.pacaur(packages)
 
 #CONFIGURATION
-tools.mkdir('~/.config/deluge')
-tools.link_conf('~/Projects/dotfiles/confs/deluge_notifs_conf', '~/.config/deluge/notifications-gtk.conf')
-tools.link_conf('~/Projects/dotfiles/confs/keepassxc_ini', '~/.config/keepassxc/keepassxc.ini')
-tools.link_conf('~/Projects/dotfiles/confs/rtv_cfg', '~/.config/rtv/rtv.cfg')
-tools.link_conf('~/Projects/dotfiles/confs/rtv_mailcap', '~/.mailcap')
+tools.stow('deluge')
+tools.stow('keepassxc')
+tools.stow('rtv')
