@@ -6,4 +6,4 @@ packages = ['caffeine-ng',
 tools.pacaur(packages)
 
 #CONFIGURATION
-tools.link_conf('~/Projects/dotfiles/confs/logind_conf', '/etc/systemd/logind.conf', sudo=True)
+tools.stow('logind', sudo=True)
