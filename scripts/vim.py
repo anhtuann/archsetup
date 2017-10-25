@@ -10,8 +10,8 @@ tools.pacaur(packages)
 tools.mkdir('~/.vim/bundle')
 with tools.cd('~/.vim/bundle'):
     tools.git_clone('https://github.com/VundleVim/Vundle.vim.git', 'Vundle.vim')
-tools.link_conf('~/Projects/dotfiles/confs/vimrc_conf', '~/.vimrc')
-tools.link_conf('~/Projects/dotfiles/confs/flake8_conf', '~/.config/flake8')
+tools.stow('vim')
+tools.stow('flake8')
 tools.bash_cmd('vim -E -S ~/.vimrc +PluginInstall +qall')
 tools.mkdir('/tmp/ycm_build')
 with tools.cd('/tmp/ycm_build'):
