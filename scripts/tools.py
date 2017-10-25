@@ -67,7 +67,7 @@ def mkdir(path, sudo = False):
     else:
         bash_cmd(command)
 
-def stow(package, source='~/Projects/dotfiles/dotfiles/', sudo=False):
+def stow(package, source='~/.dotfiles/', sudo=False):
     if sudo is False:
         bash_cmd('stow -v -d {} -t ~ {}'.format(source, package))
     else:
