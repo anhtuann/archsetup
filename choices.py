@@ -9,5 +9,9 @@ MINIMAL = ['pacaur.py',
            'vim.py',
            'shell.py']
 
+SERVERS = ['lemp.py',
+           'matrix.py']
+
 STEPS = list()
 STEPS.extend(MINIMAL)
+STEPS.extend(SERVERS)
