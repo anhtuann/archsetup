@@ -6,5 +6,7 @@ packages = ['python',
             'python-virtualenvwrapper',
             'tk',
             'cmake', #installed to build YouCompleteMe vim Plugin
-            'boost'] #same as cmake for YouCompleteMe
+            'boost', #same as cmake for YouCompleteMe
+            'lua', #for weechat
+            'lua-cjson']  #for weechat
 tools.pacaur(packages)
