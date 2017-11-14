@@ -2,6 +2,7 @@ INSTALL_ENV = 'machine'
 #Real install would be 'machine'
 
 MINIMAL = ['pacaur.py',
+           'stow.py',
            'cli_tools.py',
            'xserver.py',
            'backlight.py',
@@ -16,6 +17,7 @@ MINIMAL = ['pacaur.py',
            'multimedia.py',
            'web_tools.py',
            'office.py',
+           'syncthing.py',
            'vim.py',
            'shell.py']
 
@@ -28,7 +30,8 @@ HARDWARE = ['power.py'
             'printer.py',
             'scanner.py']
 
-CODING = ['tensorflow.py']
+CODING = ['tensorflow.py',
+          'android.py']
 
 STEPS = list()
 STEPS.extend(MINIMAL)
