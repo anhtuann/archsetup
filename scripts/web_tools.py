@@ -1,8 +1,7 @@
 from scripts import tools
 
 #INSTALL
-packages = ['dropbox',
-            'deluge',
+packages = ['deluge',
             'python2-notify',
             'python2-mako',
             'python2-service-identity',
