@@ -1,8 +1,7 @@
 from scripts import tools
 
 #INSTALL
-packages = ['firefox',
-            'gstreamer',
+packages = ['gstreamer',
             'gst-libav', 
             'gst-plugins-good',
             'qutebrowser',
