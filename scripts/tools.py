@@ -11,7 +11,7 @@ def bash_cmd(cmd):
     execute the command cmd
     '''
     print(cmd)
-    subprocess.run(cmd, stdout=subprocess.PIPE, shell=True)
+    subprocess.run(cmd, shell=True)
 
 def pacman(packages, makepkg=False, noconfirm=True):
     command = ['sudo', 'pacman']
