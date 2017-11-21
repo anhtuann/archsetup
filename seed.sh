@@ -13,7 +13,9 @@ mkdir ~/Projects
 git clone git@anhtuann.com:anhtuann/archsetup.git ~/Projects/archsetup
 git clone git@anhtuann.com:anhtuann/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
+git checkout tardis
 stow -v -t ~ git
+sudo rm /etc/pacman.conf
 sudo stow -v -t / pacman
 cd ~/Projects/archsetup
 git checkout 20171121_tardis_vbinstall
