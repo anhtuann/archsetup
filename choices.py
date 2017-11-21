@@ -1,4 +1,4 @@
-INSTALL_ENV = 'machine'
+INSTALL_ENV = 'virtualbox'
 #Real install would be 'machine'
 
 MINIMAL = ['pacaur.py',
@@ -17,6 +17,7 @@ MINIMAL = ['pacaur.py',
            'multimedia.py',
            'web_tools.py',
            'office.py',
+           'virtualbox.py',
            'syncthing.py',
            'vim.py',
            'shell.py']
