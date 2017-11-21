@@ -8,7 +8,7 @@ sudo reflector --verbose --protocol http --sort rate --fastest 6 --threads 10 --
 sudo pacman -Syu --noconfirm
 
 #Get archsetup and dotfiles project
-sudo pacman -S --noconfirm git openssh
+sudo pacman -S --noconfirm git openssh stow
 mkdir ~/Projects
 git clone git@anhtuann.com:anhtuann/archsetup.git ~/Projects/archsetup
 git clone git@anhtuann.com:anhtuann/dotfiles.git ~/.dotfiles
