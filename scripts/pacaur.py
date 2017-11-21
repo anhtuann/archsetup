@@ -1,5 +1,4 @@
 from scripts import tools
-import glob
 
 #INSTALL
 packages = ['expac', 'yajl']
