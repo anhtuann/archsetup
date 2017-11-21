@@ -7,14 +7,14 @@ sudo wget https://www.archlinux.org/mirrorlist/all/ -O /etc/pacman.d/mirrorlist
 sudo reflector --verbose --protocol http --sort rate --fastest 6 --threads 10 --save /etc/pacman.d/mirrorlist
 sudo pacman -Syu --noconfirm
 
-#Get dotfiles project
+#Get archsetup and dotfiles project
 sudo pacman -S --noconfirm git openssh
 mkdir ~/Projects
-cd ~/Projects
-git clone git@anhtuann.com:anhtuann/dotfiles.git
-ln -sf ~/Projects/dotfiles/confs/git_conf ~/.gitconfig
-cd dotfiles
-git checkout 20170629_tardis_install
-sudo ln -sf ~/Projects/dotfiles/confs/pacman_conf /etc/pacman.conf
+git clone git@anhtuann.com:anhtuann/archsetup.git ~/Projects/archsetup
+git clone git@anhtuann.com:anhtuann/dotfiles.git ~/.dotfiles
+cd ~/.dotfiles
+stow -v -t ~ git
+sudo stow -v -t / pacman
+cd ~/Projects/archsetup
+git checkout 20171121_tardis_vbinstall
 sudo pacman -Syu --noconfirm
-sudo mv /usr/lib/firmware/ath10k/QCA6174/hw3.0/firmware-6.bin /usr/lib/firmware/ath10k/QCA6174/hw3.0/firmware-6.bin.bak
