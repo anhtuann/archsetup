@@ -3,6 +3,7 @@ import os
 
 #INSTALL
 packages = ['i3',
+            'i3lock-color-git',
             'rxvt-unicode',
             'rofi',
             'scrot',
