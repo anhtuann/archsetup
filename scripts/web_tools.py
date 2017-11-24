@@ -1,7 +1,7 @@
 from scripts import tools
 
 #INSTALL
-packages = ['deluge',
+packages = ['aria2',
             'python2-notify',
             'python2-mako',
             'python2-service-identity',
@@ -12,6 +12,7 @@ packages = ['deluge',
 tools.pacaur(packages)
 
 #CONFIGURATION
-tools.stow('deluge')
+tools.stow('aria2')
+tools.bash_cmd('touch ~/.aria2_input.conf')
 tools.stow('keepassxc')
 tools.stow('rtv')
