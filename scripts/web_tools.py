@@ -6,13 +6,10 @@ packages = ['aria2',
             'python2-mako',
             'python2-service-identity',
             'viber',
-            'keepassxc',
-            'rtv',
-            'urlscan']
+            'keepassxc']
 tools.pacaur(packages)
 
 #CONFIGURATION
 tools.stow('aria2')
 tools.bash_cmd('touch ~/.aria2_input.conf')
 tools.stow('keepassxc')
-tools.stow('rtv')
