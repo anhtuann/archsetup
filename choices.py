@@ -1,8 +1,7 @@
 INSTALL_ENV = 'virtualbox'
 #Real install would be 'machine'
 
-MINIMAL = ['stow',
-           'pacaur.py',
+MINIMAL = ['pacaur.py',
            'cli_tools.py',
            'xserver.py',
            'backlight.py',
