@@ -10,8 +10,8 @@ sudo pacman -Syu --noconfirm
 #Get archsetup and dotfiles project
 sudo pacman -S --noconfirm git openssh stow
 mkdir ~/Projects
-git clone git@anhtuann.com:anhtuann/archsetup.git ~/Projects/archsetup
-git clone git@anhtuann.com:anhtuann/dotfiles.git ~/.dotfiles
+git clone gitsandman:anhtuann/archsetup.git ~/Projects/archsetup
+git clone gitsandman:anhtuann/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 git checkout tardis
 stow -v -t ~ git

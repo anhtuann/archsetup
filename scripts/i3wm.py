@@ -22,7 +22,7 @@ packages = ['i3',
 tools.pacaur(packages)
 
 with tools.cd('~/Projects/'):
-    tools.git_clone('git@anhtuann.com:anhtuann/useful-scripts.git')
+    tools.git_clone('gitsandman:anhtuann/useful-scripts.git')
 
 #CONFIGURATION
 tools.stow('i3')
