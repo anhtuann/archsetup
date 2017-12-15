@@ -4,6 +4,7 @@ import os
 #INSTALL
 packages = ['i3',
             'i3lock-color-git',
+            'polybar'
             'rxvt-unicode',
             'rofi',
             'scrot',
@@ -27,6 +28,7 @@ with tools.cd('~/Projects/'):
 #CONFIGURATION
 tools.stow('i3')
 tools.stow('i3status')
+tools.stow('polybar')
 tools.stow('Xresources')
 tools.stow('dunst')
 tools.stow('redshift')
