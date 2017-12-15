@@ -5,5 +5,5 @@ packages = ['crda']
 tools.pacaur(packages)
 
 #CONFIGURATION
-tools.bash_cmd("sudo -v sed -i '/FR/s/^#//g' /etc/conf.d/wireless-regdom")
+tools.bash_cmd("sudo sed -i '/FR/s/^#//g' /etc/conf.d/wireless-regdom")
 tools.stow('connman', sudo=True)

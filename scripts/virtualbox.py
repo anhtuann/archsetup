@@ -13,4 +13,4 @@ else:
                 'net-tools',
                 'virtualbox-ext-oracle']
     tools.pacaur(packages)
-    tools.bash_cmd("sudo -v gpasswd -a $USER vboxusers")
+    tools.bash_cmd("sudo gpasswd -a $USER vboxusers")

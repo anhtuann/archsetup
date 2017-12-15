@@ -10,5 +10,5 @@ packages = ['pulseaudio-alsa',
 tools.pacaur(packages)
 
 #CONFIGURATION
-tools.bash_cmd('sudo -v systemctl enable --now bluetooth.service')
+tools.bash_cmd('sudo systemctl enable --now bluetooth.service')
 tools.bash_cmd('gsettings set org.blueman.plugins.powermanager auto-power-on false')
