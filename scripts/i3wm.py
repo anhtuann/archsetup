@@ -28,6 +28,7 @@ with tools.cd('~/Projects/'):
 #CONFIGURATION
 tools.stow('i3')
 tools.stow('i3status')
+tools.stow('rofi')
 tools.stow('polybar')
 tools.stow('Xresources')
 tools.stow('dunst')
