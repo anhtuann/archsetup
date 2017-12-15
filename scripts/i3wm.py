@@ -4,7 +4,7 @@ import os
 #INSTALL
 packages = ['i3',
             'i3lock-color-git',
-            'polybar'
+            'polybar',
             'rxvt-unicode',
             'rofi',
             'scrot',
