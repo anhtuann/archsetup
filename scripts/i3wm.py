@@ -39,6 +39,8 @@ screenshots_dir = '~/Pictures/screenshots'
 tools.mkdir(screenshots_dir)
 wallpapers_dir = '~/Pictures/wallpapers'
 wallpaper = '~/Projects/archsetup/statics/takingcontrol.jpg'
+wallpaper_lock = '~/Projects/archsetup/statics/takingcontrol_lock.png'
 tools.mkdir(wallpapers_dir)
 tools.bash_cmd('cp {} {}'.format(os.path.expanduser(wallpaper), os.path.expanduser(wallpapers_dir)))
+tools.bash_cmd('cp {} {}'.format(os.path.expanduser(wallpaper_lock), os.path.expanduser(wallpapers_dir)))
 tools.stow('fehbg')
