@@ -4,6 +4,7 @@ from scripts import tools
 packages = ['keepassxc',
             'pass',
             'rofi-pass']
+tools.pacaur(packages)
 
 #CONFIGURATION
 tools.stow('keepassxc')
