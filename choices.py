@@ -12,12 +12,12 @@ MINIMAL = ['pacaur.py',
            'sound.py',
            'browser.py',
            'code_env.py',
-           'web_dev.py',
            'multimedia.py',
            'web_tools.py',
            'office.py',
            'virtualbox.py',
            'syncthing.py',
+           'security.py',
            'vim.py',
            'shell.py']
 
@@ -30,7 +30,8 @@ HARDWARE = ['power.py'
             'printer.py',
             'scanner.py']
 
-CODING = ['tensorflow.py',
+CODING = ['web_dev.py',
+          'tensorflow.py',
           'android.py']
 
 STEPS = list()
