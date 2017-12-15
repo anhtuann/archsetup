@@ -7,4 +7,4 @@ packages = ['sane',
 tools.pacaur(packages)
 
 #CONFIGURATION
-tools.bash_cmd('sudo cp ~/Projects/dotfiles/confs/scanners_rules /etc/udev/rules.d/49-sane-missing.rules')
+tools.bash_cmd('sudo -v cp ~/Projects/dotfiles/confs/scanners_rules /etc/udev/rules.d/49-sane-missing.rules')

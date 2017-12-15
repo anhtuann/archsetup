@@ -14,7 +14,7 @@ def bash_cmd(cmd):
     subprocess.run(cmd, shell=True)
 
 def pacman(packages, makepkg=False, noconfirm=True):
-    command = ['sudo', 'pacman']
+    command = ['sudo -v', 'pacman']
     if not makepkg:
         command.append('-S')
     else:
@@ -62,7 +62,7 @@ def makepkg(package):
 def mkdir(path, sudo = False):
     command = 'mkdir -p {}'.format(os.path.expanduser(path))
     if sudo == True:
-        sudo_cmd = 'sudo ' + command
+        sudo_cmd = 'sudo -v ' + command
         bash_cmd(sudo_cmd)
     else:
         bash_cmd(command)
@@ -71,10 +71,10 @@ def stow(package, source='~/.dotfiles/', sudo=False):
     if sudo is False:
         bash_cmd('stow -v -d {} -t ~ {}'.format(source, package))
     else:
-        bash_cmd('sudo stow -v -d {} -t / {}'.format(source, package))
+        bash_cmd('sudo -v stow -v -d {} -t / {}'.format(source, package))
 
 def link_conf(source, link, sudo = False):
-    command = ['sudo', 'ln', '-sf', os.path.expanduser(source), os.path.expanduser(link)]
+    command = ['sudo -v', 'ln', '-sf', os.path.expanduser(source), os.path.expanduser(link)]
     if not sudo:
         bash_cmd(' '.join(command[1:]))
     else:

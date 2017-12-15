@@ -5,5 +5,5 @@ packages = ['acpilight']
 tools.pacaur(packages)
 
 #CONFIGURATION
-tools.bash_cmd('sudo cp ~/Projects/dotfiles/confs/backlight_rules /etc/udev/rules.d/90-backlight.rules')
-tools.bash_cmd('sudo usermod -aG video anhtuann')
+tools.bash_cmd('sudo -v cp ~/Projects/dotfiles/confs/backlight_rules /etc/udev/rules.d/90-backlight.rules')
+tools.bash_cmd('sudo -v usermod -aG video anhtuann')
