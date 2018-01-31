@@ -4,7 +4,7 @@ from scripts import tools
 packages = ['syncthing',
             'syncthing-inotify',
             'syncthing-gtk']
-tools.pacaur(packages)
+tools.pacman(packages)
 
 #CONFIGURATION
 tools.bash_cmd('systemctl enable --now syncthing --user')

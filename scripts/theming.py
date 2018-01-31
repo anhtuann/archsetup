@@ -4,7 +4,7 @@ from scripts import tools
 packages = ['lxappearance',
             'ubuntu-themes',
             'qt5ct']
-tools.pacaur(packages)
+tools.pacman(packages)
 
 #CONFIGURATION
 tools.stow('gtk3')

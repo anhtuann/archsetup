@@ -8,4 +8,4 @@ packages = ['python',
             'cmake', #installed to build YouCompleteMe vim Plugin
             'boost', #same as cmake for YouCompleteMe
             'python-opengl'] #for qutebrowser with webengine backend
-tools.pacaur(packages)
+tools.pacman(packages)

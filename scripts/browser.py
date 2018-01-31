@@ -7,7 +7,7 @@ packages = ['gstreamer',
             'qutebrowser',
             'qt5-webengine',
             'qt5-webengine-widevine']
-tools.pacaur(packages)
+tools.pacman(packages)
 
 #CONFIGURATION
 tools.stow('qutebrowser')

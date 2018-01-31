@@ -8,4 +8,4 @@ packages = ['ttf-hack-powerline-git',
             'ttf-font-awesome',
             'ttf-unifont',
             'siji-git']
-tools.pacaur(packages)
+tools.pacman(packages)

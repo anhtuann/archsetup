@@ -4,7 +4,7 @@ from scripts import tools
 packages = ['cups',
             'hplip',
             'gtk3-print-backends']
-tools.pacaur(packages)
+tools.pacman(packages)
 
 #CONFIGURATION
 tools.bash_cmd('sudo gpasswd -a anhtuann sys')

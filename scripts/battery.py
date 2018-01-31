@@ -2,7 +2,7 @@ from scripts import tools
 
 #INSTALL
 packages = ['tlp']
-tools.pacaur(packages)
+tools.pacman(packages)
 
 #CONFIGURATION
 tools.bash_cmd('sudo systemctl enable --now tlp.service')

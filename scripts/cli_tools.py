@@ -6,7 +6,7 @@ packages = ['unrar',
             'rsync',
             'ranger',
             'w3m']
-tools.pacaur(packages)
+tools.pacman(packages)
 
 #CONFIGURATION
 tools.bash_cmd('ranger --copy-config=all')

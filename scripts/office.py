@@ -4,7 +4,7 @@ from scripts import tools
 packages = ['libreoffice',
             'zathura',
             'zathura-pdf-mupdf']
-tools.pacaur(packages)
+tools.pacman(packages)
 
 #CONFIGURATION
 tools.stow('zathura')

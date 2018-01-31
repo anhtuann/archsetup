@@ -3,7 +3,7 @@ from scripts import tools
 #INSTALL
 packages = ['zsh',
             'tmux']
-tools.pacaur(packages)
+tools.pacman(packages)
 
 #CONFIGURATION
 tools.bash_cmd('chsh -s /bin/zsh')

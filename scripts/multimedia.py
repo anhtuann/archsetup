@@ -7,7 +7,7 @@ packages = ['mpv',
             'audacity',
             'gimp',
             'gimp-plugin-gmic']
-tools.pacaur(packages)
+tools.pacman(packages)
 
 #CONFIGURATION
 tools.stow('mpv')

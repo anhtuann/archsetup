@@ -7,7 +7,7 @@ packages = ['pulseaudio-alsa',
             'bluez-libs',
             'bluez-utils',
             'blueman']
-tools.pacaur(packages)
+tools.pacman(packages)
 
 #CONFIGURATION
 tools.bash_cmd('sudo systemctl enable --now bluetooth.service')

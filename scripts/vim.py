@@ -3,7 +3,7 @@ from scripts import tools
 #INSTALL
 packages = ['vim',
             'flake8']
-tools.pacaur(packages)
+tools.pacman(packages)
 
 
 #CONFIGURATION

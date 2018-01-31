@@ -4,4 +4,4 @@ packages = ['alsa-utils',
             'pulseaudio',
             'pulseaudio-alsa',
             'pavucontrol']
-tools.pacaur(packages)
+tools.pacman(packages)

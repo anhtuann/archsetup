@@ -10,4 +10,4 @@ packages = ['libmtp',
             'hfsprogs',
             'exfat-utils',
             'gparted']
-tools.pacaur(packages)
+tools.pacman(packages)

@@ -6,7 +6,7 @@ packages = ['xorg-server',
             'xorg-xinit',
             'arandr',
             'xbanish']
-tools.pacaur(packages)
+tools.pacman(packages)
 
 #CONFIGURATION
 tools.stow('xinit')

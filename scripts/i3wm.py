@@ -20,7 +20,7 @@ packages = ['i3',
             'tumbler',
             'xclip',
             'redshift']
-tools.pacaur(packages)
+tools.pacman(packages)
 
 with tools.cd('~/Projects/'):
     tools.git_clone('gitsandman:anhtuann/useful-scripts.git')

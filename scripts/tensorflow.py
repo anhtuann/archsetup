@@ -4,7 +4,7 @@ from scripts import tools
 packages = ['python-numpy',
             'python-wheel',
             'bazel']
-tools.pacaur(packages)
+tools.pacman(packages)
 
 #CONFIGURATION
 tf_path = '~/Projects/tensorflow_build'

@@ -4,7 +4,7 @@ from scripts import tools
 packages = ['nginx-mainline',
             'google-chrome',
             'hugo']
-tools.pacaur(packages)
+tools.pacman(packages)
 
 #CONFIGURATION
 tools.mkdir('/etc/nginx/sites-available', sudo = True)

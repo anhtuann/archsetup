@@ -6,7 +6,7 @@ packages = ['aria2',
             'python2-mako',
             'python2-service-identity',
             'viber']
-tools.pacaur(packages)
+tools.pacman(packages)
 
 #CONFIGURATION
 tools.stow('aria2')
