@@ -1,7 +1,8 @@
 from scripts import tools
 
 #INSTALL
-packages = ['crda']
+packages = ['crda',
+            'nmap']
 tools.pacaur(packages)
 
 #CONFIGURATION
