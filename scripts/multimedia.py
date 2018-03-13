@@ -6,7 +6,8 @@ packages = ['mpv',
             'calibre',
             'audacity',
             'gimp',
-            'gimp-plugin-gmic']
+            'gimp-plugin-gmic',
+            'blender']
 tools.pacaur(packages)
 
 #CONFIGURATION
