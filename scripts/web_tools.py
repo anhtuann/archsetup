@@ -4,8 +4,7 @@ from scripts import tools
 packages = ['aria2',
             'python2-notify',
             'python2-mako',
-            'python2-service-identity',
-            'viber']
+            'python2-service-identity']
 tools.pacaur(packages)
 
 #CONFIGURATION
