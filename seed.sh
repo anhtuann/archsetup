@@ -18,5 +18,5 @@ stow -v -t ~ git
 sudo rm /etc/pacman.conf
 sudo stow -v -t / pacman
 cd ~/Projects/archsetup
-git checkout 20171121_tardis_vbinstall
+git checkout tardis_test_install_20180313
 sudo pacman -Syu --noconfirm
