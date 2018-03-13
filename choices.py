@@ -1,4 +1,4 @@
-INSTALL_ENV = 'virtualbox'
+INSTALL_ENV = 'machine'
 #Real install would be 'machine'
 
 MINIMAL = ['pacaur.py',
@@ -39,4 +39,4 @@ STEPS.extend(MINIMAL)
 
 if INSTALL_ENV == 'machine':
     STEPS.extend(HARDWARE)
-    STEPS.extend(CODING)
+    #STEPS.extend(CODING)
