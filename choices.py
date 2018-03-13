@@ -21,7 +21,7 @@ MINIMAL = ['pacaur.py',
            'vim.py',
            'shell.py']
 
-HARDWARE = ['power.py'
+HARDWARE = ['power.py',
             'battery.py',
             'sys_tools.py',
             'input.py',
