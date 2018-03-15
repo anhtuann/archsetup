@@ -10,6 +10,11 @@ MINIMAL = ['pacaur.py',
            'vim.py',
            'shell.py']
 
+DESKTOP = ['xfce.py',
+           'theming.py']
+
+APPLICATIONS = ['browser.py']
+
 HARDWARE = ['power.py',
             'battery.py',
             'sys_tools.py',
@@ -22,6 +27,8 @@ CODING = ['web_dev.py',
 
 STEPS = list()
 STEPS.extend(MINIMAL)
+STEPS.extend(DESKTOP)
+STEPS.extend(APPLICATIONS)
 
 if INSTALL_ENV == 'machine':
     STEPS.extend(HARDWARE)
