@@ -1,9 +1,9 @@
 from scripts import tools
 
 #INSTALL
-packages = ['acpilight']
+packages = ['xorg-xbacklight',
+            'xf86-video-intel']
 tools.pacaur(packages)
 
 #CONFIGURATION
-tools.bash_cmd('sudo cp ~/Projects/archsetup/confs/backlight_rules /etc/udev/rules.d/90-backlight.rules')
-tools.bash_cmd('sudo usermod -aG video anhtuann')
+tools.stow('backlight', sudo=True)
