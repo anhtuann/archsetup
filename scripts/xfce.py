@@ -4,5 +4,6 @@ from scripts import tools
 packages = ['xfce4',
             'xfce4-dockbarx-plugin',
             'xfce4-whiskermenu-plugin',
-            'xfce4-pulseaudio-plugin']
+            'xfce4-pulseaudio-plugin',
+            'gvfs']
 tools.pacaur(packages)
