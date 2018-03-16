@@ -2,7 +2,9 @@ from scripts import tools
 
 #INSTALL
 packages = ['vim',
-            'flake8']
+            'flake8',
+            'cmake',
+            'boost']
 tools.pacaur(packages)
 
 
