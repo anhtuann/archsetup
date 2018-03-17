@@ -6,5 +6,6 @@ packages = ['xfce4',
             'xfce4-whiskermenu-plugin',
             'xfce4-pulseaudio-plugin',
             'gvfs',
-            'thunar-archive-plugin']
+            'thunar-archive-plugin',
+            'xlockmore']
 tools.pacaur(packages)
