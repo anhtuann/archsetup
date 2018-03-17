@@ -7,5 +7,6 @@ packages = ['xfce4',
             'xfce4-pulseaudio-plugin',
             'gvfs',
             'thunar-archive-plugin',
-            'xlockmore']
+            'xlockmore',
+            'feh']
 tools.pacaur(packages)
