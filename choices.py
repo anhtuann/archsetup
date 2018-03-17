@@ -13,7 +13,8 @@ MINIMAL = ['pacaur.py',
 DESKTOP = ['xfce.py',
            'theming.py']
 
-APPLICATIONS = ['browser.py']
+APPLICATIONS = ['browser.py',
+                'office.py']
 
 HARDWARE = ['power.py',
             'battery.py',
