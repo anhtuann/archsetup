@@ -10,3 +10,6 @@ packages = ['xfce4',
             'xlockmore',
             'feh']
 tools.pacaur(packages)
+
+#CONFIGURATION
+tools.stow('xfce')
