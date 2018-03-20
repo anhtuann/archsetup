@@ -13,3 +13,4 @@ tools.pacaur(packages)
 
 #CONFIGURATION
 tools.stow('xfce')
+tools.stow('autostart')
