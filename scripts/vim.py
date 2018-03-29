@@ -17,6 +17,8 @@ tools.mkdir('/tmp/ycm_build')
 with tools.cd('/tmp/ycm_build'):
     tools.bash_cmd('cmake -G "Unix Makefiles" . ~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp')
     tools.bash_cmd('cmake --build . --target ycm_core')
+with tools.cd('~/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/tern_runtime'):
+    tools.bash_cmd('npm install --production')
 with tools.cd('~/.vim/bundle/YouCompleteMe'):
     tools.bash_cmd('git submodule update --init --recursive')
-    tools.bash_cmd('python install.py --system-boost')
+    tools.bash_cmd('python install.py --system-boost --tern-completer')
