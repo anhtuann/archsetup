@@ -1,8 +1,7 @@
 from scripts import tools
 
 #INSTALL
-packages = ['vim',
-            'flake8']
+packages = ['vim']
 tools.pacaur(packages)
 
 
@@ -13,10 +12,3 @@ with tools.cd('~/.vim/bundle'):
 tools.stow('vim')
 tools.stow('flake8')
 tools.bash_cmd('vim -E -S ~/.vimrc +PluginInstall +qall')
-tools.mkdir('/tmp/ycm_build')
-with tools.cd('/tmp/ycm_build'):
-    tools.bash_cmd('cmake -G "Unix Makefiles" . ~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp')
-    tools.bash_cmd('cmake --build . --target ycm_core')
-with tools.cd('~/.vim/bundle/YouCompleteMe'):
-    tools.bash_cmd('git submodule update --init --recursive')
-    tools.bash_cmd('python install.py --system-boost')
