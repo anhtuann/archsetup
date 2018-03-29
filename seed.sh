@@ -1,20 +1,22 @@
 #Update and optimize mirrorlist for pacman
 #Code taken from a linode stackscript and added sudo to it
 #https://www.linode.com/stackscripts/view/12580
-sudo pacman -Sy --noconfirm wget reflector
+sudo pacman -Sy --noconfirm --needed wget reflector
 sudo mv /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.old
 sudo wget https://www.archlinux.org/mirrorlist/all/ -O /etc/pacman.d/mirrorlist
 sudo reflector --verbose --protocol http --sort rate --fastest 6 --threads 10 --save /etc/pacman.d/mirrorlist
 sudo pacman -Syu --noconfirm
 
-#Get dotfiles project
-sudo pacman -S --noconfirm git openssh
+#Get archsetup and dotfiles project
+sudo pacman -S --noconfirm --needed git openssh stow
 mkdir ~/Projects
-cd ~/Projects
-git clone git@anhtuann.com:anhtuann/dotfiles.git
-ln -sf ~/Projects/dotfiles/confs/git_conf ~/.gitconfig
-cd dotfiles
-git checkout 20170629_tardis_install
-sudo ln -sf ~/Projects/dotfiles/confs/pacman_conf /etc/pacman.conf
+git clone gitsandman:anhtuann/archsetup.git ~/Projects/archsetup
+git clone gitsandman:anhtuann/dotfiles.git ~/.dotfiles
+cd ~/.dotfiles
+git checkout hogwarts
+stow -v -t ~ git
+sudo rm /etc/pacman.conf
+sudo stow -v -t / pacman
+cd ~/Projects/archsetup
+git checkout hogwarts
 sudo pacman -Syu --noconfirm
-sudo mv /usr/lib/firmware/ath10k/QCA6174/hw3.0/firmware-6.bin /usr/lib/firmware/ath10k/QCA6174/hw3.0/firmware-6.bin.bak
