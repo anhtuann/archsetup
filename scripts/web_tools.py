@@ -2,7 +2,7 @@ from scripts import tools
 
 #INSTALL
 packages = ['aria2']
-tools.pacaur(packages)
+tools.pacman(packages)
 
 #CONFIGURATION
 tools.stow('aria2')

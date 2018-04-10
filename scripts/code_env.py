@@ -9,4 +9,4 @@ packages = ['python',
             'boost', #same as cmake for YouCompleteMe
             'lua', #for weechat
             'lua-cjson']  #for weechat
-tools.pacaur(packages)
+tools.pacman(packages)

@@ -4,7 +4,7 @@ from scripts import tools
 packages = ['wget',
 	    'zsh',
             'tmux']
-tools.pacaur(packages)
+tools.pacman(packages)
 
 #CONFIGURATION
 tools.bash_cmd('chsh -s /bin/zsh')

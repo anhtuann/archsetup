@@ -5,7 +5,7 @@ packages = ['nginx-mainline',
             'php',
             'php-fpm',
             'mariadb']
-tools.pacaur(packages)
+tools.pacman(packages)
 
 #CONFIGURATION
 tools.mkdir('/etc/nginx/sites-available', sudo=True)

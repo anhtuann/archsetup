@@ -5,4 +5,4 @@ packages = ['udisks2',
             'ntfs-3g',
             'dosfstools',
             'exfat-utils']
-tools.pacaur(packages)
+tools.pacman(packages)

@@ -5,7 +5,7 @@ packages = ['radicale',
             'python-passlib',
             'python-bcrypt',
             'apache-tools']
-tools.pacaur(packages)
+tools.pacman(packages)
 
 #CONFIGURATION
 tools.stow('radicale', sudo=True)

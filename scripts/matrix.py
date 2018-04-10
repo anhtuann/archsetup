@@ -2,7 +2,7 @@ from scripts import tools
 
 #INSTALL
 packages = ['matrix-synapse']
-tools.pacaur(packages)
+tools.pacman(packages)
 
 #CONFIGURATION
 tools.bash_cmd('sudo chmod 755 -R /var/lib/synapse')

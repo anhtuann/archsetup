@@ -5,4 +5,4 @@ packages = ['ttf-hack',
             'ttf-symbola',
             'ttf-droid']
             #'ttf-mplus']
-tools.pacaur(packages)
+tools.pacman(packages)

@@ -2,7 +2,7 @@ from scripts import tools
 
 #INSTALL
 packages = ['weechat']
-tools.pacaur(packages)
+tools.pacman(packages)
 
 #CONFIGURATION
 tools.mkdir('~/.weechat/python/autoload')

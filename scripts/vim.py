@@ -2,7 +2,7 @@ from scripts import tools
 
 #INSTALL
 packages = ['vim']
-tools.pacaur(packages)
+tools.pacman(packages)
 
 
 #CONFIGURATION
