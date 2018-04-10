@@ -1,17 +1,16 @@
 INSTALL_ENV = 'machine'
 #Real install would be 'machine'
 
-MINIMAL = ['pacaur.py',
-           'i3wm.py',
-           'fonts.py',
-           'code_env.py',
-           'web_dev.py',
+MINIMAL = ['fonts.py',
            'vim.py',
            'shell.py']
+
+TOOLS = ['fs_management.py']
 
 SERVERS = ['lemp.py',
            'matrix.py']
 
 STEPS = list()
 STEPS.extend(MINIMAL)
-STEPS.extend(SERVERS)
+STEPS.extend(TOOLS)
+#STEPS.extend(SERVERS)
