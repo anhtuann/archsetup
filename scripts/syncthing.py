@@ -1,8 +1,7 @@
 from scripts import tools
 
 #INSTALL
-packages = ['syncthing',
-            'syncthing-inotify']
+packages = ['syncthing']
 tools.pacaur(packages)
 
 #CONFIGURATION
