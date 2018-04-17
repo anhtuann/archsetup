@@ -6,4 +6,4 @@ packages = ['android-tools',
 tools.pacaur(packages)
 
 #CONFIGURATION
-tools.bash_cmd('sudo usermod -aG adbusers anhtuann')
+tools.bash_cmd('sudo usermod -aG adbusers $USER')
