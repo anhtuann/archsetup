@@ -8,3 +8,4 @@ tools.pacaur(packages)
 
 #CONFIGURATION
 tools.stow('keepassxc')
+tools.stow('rofi-pass')
