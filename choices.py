@@ -15,8 +15,6 @@ MINIMAL = ['pacaur.py',
            'multimedia.py',
            'web_tools.py',
            'office.py',
-           'virtualbox.py',
-           'syncthing.py',
            'security.py',
            'vim.py',
            'shell.py']
