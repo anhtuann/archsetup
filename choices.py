@@ -24,11 +24,7 @@ MINIMAL = ['pacaur.py',
 HARDWARE = ['power.py',
             'battery.py',
             'sys_tools.py',
-            'input.py',
-            'network.py',
-            'bluetooth.py',
-            'printer.py',
-            'scanner.py']
+            'input.py']
 
 CODING = ['web_dev.py',
           'tensorflow.py',
