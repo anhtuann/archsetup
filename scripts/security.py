@@ -3,7 +3,8 @@ from scripts import tools
 #INSTALL
 packages = ['keepassxc',
             'pass',
-            'rofi-pass']
+            'rofi-pass',
+            'gnupg']
 tools.pacaur(packages)
 
 #CONFIGURATION
