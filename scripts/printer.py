@@ -3,7 +3,9 @@ from scripts import tools
 #INSTALL
 packages = ['cups',
             'hplip',
-            'gtk3-print-backends']
+            'gtk3-print-backends',
+            'foomatic-db-gutenprint-ppds',
+            'gutenprint']
 tools.pacaur(packages)
 
 #CONFIGURATION
