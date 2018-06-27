@@ -5,7 +5,8 @@ packages = ['unrar',
             'unzip',
             'rsync',
             'ranger',
-            'w3m']
+            'w3m',
+            'pacman-contrib']
 tools.pacaur(packages)
 
 #CONFIGURATION
