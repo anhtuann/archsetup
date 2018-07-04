@@ -2,6 +2,7 @@ from scripts import tools
 
 #INSTALL
 packages = ['python',
+            'python-numpy',
             'python-virtualenv',
             'python-virtualenvwrapper',
             'tk',
