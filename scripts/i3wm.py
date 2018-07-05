@@ -26,8 +26,8 @@ packages = ['i3',
             'redshift']
 tools.pacaur(packages)
 
-with tools.cd('~/Projects/'):
-    tools.git_clone('gitsandman:anhtuann/useful-scripts.git')
+with tools.cd('~/'):
+    tools.git_clone('gitsandman:anhtuann/useful-scripts.git', '~/.scripts')
 
 #CONFIGURATION
 tools.stow('i3')
