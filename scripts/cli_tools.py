@@ -1,7 +1,8 @@
 from scripts import tools
 
 #INSTALL
-packages = ['unrar',
+packages = ['st',
+            'unrar',
             'unzip',
             'rsync',
             'ranger',
