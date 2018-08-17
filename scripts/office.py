@@ -3,7 +3,7 @@ from scripts import tools
 #INSTALL
 packages = ['libreoffice',
             'zathura',
-            'zathura-pdf-mupdf']
+            'zathura-pdf-poppler']
 tools.pacaur(packages)
 
 #CONFIGURATION
